@@ -1,6 +1,7 @@
 import React from 'react'
 import hearticon from '../Assets/heart.svg'
 import carticon from '../Assets/shopping-cart.svg'
+import { Link } from 'react-router-dom'
 
 const HeaderTwo = () => {
   return (
@@ -12,8 +13,8 @@ const HeaderTwo = () => {
       </div>
       <div >
         <ul className='flex gap-5 py-5 text-white'>
-          <li>Home</li>
-          <li>Shop</li>
+          <Link to={"/home"}><li>Home</li></Link>
+          <Link to={"/shoplist"}><li>Shop</li></Link>
           <li>Shop Details</li>
           <li>Pages</li>
           <li>Contact</li>
