@@ -15,7 +15,7 @@ const HeaderTwo = () => {
         <ul className='flex gap-5 py-5 text-white'>
           <Link to={"/home"}><li>Home</li></Link>
           <Link to={"/shoplist"}><li>Shop</li></Link>
-          <li>Shop Details</li>
+          <Link to={"/shopdetails"}><li>Shop Details</li></Link>
           <li>Pages</li>
           <li>Contact</li>
         </ul>
