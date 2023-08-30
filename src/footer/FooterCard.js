@@ -19,7 +19,7 @@ const FooterCard = () => {
                         <ul>
                             {QuickShop.map((item) => {
                                 return (
-                                    <li className='cursor-pointer'><a className='flex gap-2'><span>{">"}</span><div id='check'>{item}</div></a></li>
+                                    <li className='cursor-pointer'><a href='' className='flex gap-2'><span>{">"}</span><div id='check'>{item}</div></a></li>
                                 )
                             })}
                         </ul>
@@ -31,7 +31,7 @@ const FooterCard = () => {
                         <ul>
                             {MyAccount.map((item) => {
                                 return (
-                                    <li className='cursor-pointer'><a className='flex gap-2'><span>{">"}</span><div className='hover:underline'>{item}</div></a></li>
+                                    <li className='cursor-pointer'><a href='' className='flex gap-2'><span>{">"}</span><div className='hover:underline'>{item}</div></a></li>
                                 )
                             })}
                         </ul>
