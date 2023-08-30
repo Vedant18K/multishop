@@ -10,8 +10,7 @@ import SpecialOfferCard from '../Card/SpecialOfferCard'
 import RecentProduct from '../Categories/RecentProduct'
 import Vendor from '../sponcers/vendor'
 import FooterCard from '../footer/FooterCard'
-import Shoplist from '../Shop/shoplist'
-import UserLogin from '../Account/userLogin'
+
 
 
 const Home = () => {
