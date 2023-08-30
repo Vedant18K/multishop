@@ -23,8 +23,8 @@ const HeaderTwo = () => {
       </div>
     
       <div className='flex gap-8 justify-center items-center'>
-        <div className="flex gap-1"><img src={hearticon}/><div className=" flex border rounded-full  w-6 text-center  justify-center text-white ">0</div></div>
-        <div className="flex gap-1"><img src={carticon}/><div className=" flex border rounded-full  w-6 text-center  justify-center  text-white">0</div></div>
+        <div className="flex gap-1"><img alt="" src={hearticon}/><div className=" flex border rounded-full  w-6 text-center  justify-center text-white ">0</div></div>
+        <div className="flex gap-1"><img alt="" src={carticon}/><div className=" flex border rounded-full  w-6 text-center  justify-center  text-white">0</div></div>
         
       </div>
       </div>

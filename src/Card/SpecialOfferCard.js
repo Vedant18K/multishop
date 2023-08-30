@@ -6,8 +6,8 @@ function SpecialOfferCard() {
   return (
     <div className='container-fluid mt-20'>
       <div className='flex justify-between items-center gap-16'>
-        <div><img className='w-[750px]'src={offer1}/></div>
-        <div><img className='w-[750px]'src={offer2}/></div>
+        <div><img alt="" className='w-[750px]'src={offer1}/></div>
+        <div><img alt="" className='w-[750px]'src={offer2}/></div>
       </div>
     </div>
   )

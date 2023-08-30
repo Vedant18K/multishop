@@ -247,7 +247,7 @@ const Shoplist = () => {
                                 return (
                                     <div className='border-4 pb-5 m-2 'key={index}>
                                         <div className='flex justify-center items-center '>
-                                            <img className="w-[300px] " src={item.prodimg} />
+                                            <img alt="" className="w-[300px] " src={item.prodimg} />
                                         </div>
                                         <div className='text-center'>{item.prodname}<br />
                                             {item.prodprice} <br />

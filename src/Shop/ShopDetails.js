@@ -120,10 +120,10 @@ const ShopDetails = () => {
                                     class="relative float-left -mr-[100%] w-full transition-transform duration-[500ms] ease-linear motion-reduce:transition-none"
                                     data-te-carousel-active
                                     data-te-carousel-item>
-                                    <img
+                                    <img alt=""
                                         src={p1}
                                         class="block w-full "
-                                        alt="..."
+                                        
                                     />
 
                                 </div>
@@ -131,20 +131,20 @@ const ShopDetails = () => {
                                     class="relative float-left -mr-[100%] hidden w-full  transition-transform duration-[500ms] ease-linear motion-reduce:transition-none"
                                     data-te-carousel-item>
 
-                                    <img
+                                    <img alt=""
                                         src={p2}
                                         class="block w-full"
-                                        alt="..."
+                                        
                                     />
 
                                 </div>
                                 <div
                                     class="relative float-left -mr-[100%] hidden w-full transition-transform  duration-[500ms] ease-linear motion-reduce:transition-none"
                                     data-te-carousel-item>
-                                    <img
+                                    <img alt=""
                                         src={p3}
                                         class="block w-full"
-                                        alt="..."
+                                        
                                     />
 
                                 </div>
@@ -238,19 +238,19 @@ const ShopDetails = () => {
                                             </div>
                                         </div>
                                         <div className='flex py-4 items-center'>
-                                            <div onClick={() => decreaseQty()} className='text-black bg-yellow-500  h-auto rounded-md cursor-pointer '><img src={minusicon} /></div>
+                                            <div onClick={() => decreaseQty()} className='text-black bg-yellow-500  h-auto rounded-md cursor-pointer '><img alt="" src={minusicon} /></div>
 
                                             <div className=''><input className='w-10 border-2 border-solid text-center' value={qunatity} /></div>
-                                            <div onClick={() => increaseQty()} className='text-black bg-yellow-500 h-auto rounded-md cursor-pointer '><img src={Plusicon} /></div>
+                                            <div onClick={() => increaseQty()} className='text-black bg-yellow-500 h-auto rounded-md cursor-pointer '><img alt="" src={Plusicon} /></div>
 
                                             <div className='text-black bg-yellow-500 px-8 py-2 rounded-md  m-2'>Add To Cart</div>
                                         </div>
                                         <div className='flex py-4'>
                                             <div>Share On:</div>
                                             <div className='flex gap-3'>
-                                                <div><img src={facebook} /></div>
-                                                <div><img src={linkedin} /></div>
-                                                <div><img src={twitter} /></div>
+                                                <div><img alt="" src={facebook} /></div>
+                                                <div><img alt="" src={linkedin} /></div>
+                                                <div><img alt="" src={twitter} /></div>
                                             </div>
                                         </div>
                                     </div>

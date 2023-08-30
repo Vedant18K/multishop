@@ -10,7 +10,7 @@ const SearchBar = () => {
       </div>
       <div className='flex'>
         <input className='w-[500px] border-2 h-[50px] text-center' placeholder='Enter product' />
-        <img className='border-2 border-l-0 px-2' src={searchicon}></img>
+        <img alt="" className='border-2 border-l-0 px-2' src={searchicon}></img>
       </div>
       <div>Contact <p>251478963</p></div>
       </div>

@@ -16,7 +16,7 @@ const UserLogin = () => {
     }
     return (
         <div>
-            <div ><img className='absolute lg:h-[100vh] lg:w-[100%] hidden lg:block xl:object-cover' src={loginimg} /></div>
+            <div ><img alt="" className='absolute lg:h-[100vh] lg:w-[100%] hidden lg:block xl:object-cover' src={loginimg} /></div>
             <div className='relative flex justify-end text-black top-[150px] right-[80px] gap-5'>
                 <div onClick={() => LoginTab()} className='text-white bg-[#8a2be2] px-8 py-3 rounded-md '>Sign In</div>
                 <div onClick={() => SignUpTab()} className='text-white bg-[#8a2be2] px-8 py-3 rounded-md '>Sign Up</div>

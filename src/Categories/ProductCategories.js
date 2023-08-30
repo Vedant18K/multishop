@@ -10,55 +10,55 @@ const ProductCategories = () => {
             <div>CATEGORIES</div>
             <div className=' justify-between flex mt-10'>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat1} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat1} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat2} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat2} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat3} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat3} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat4} className='w-[100px]' /></div>
-                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
-                </div>
-            </div>
-            <div className=' justify-between flex mt-10'>
-                <div className='flex border-2 border-solid'>
-                    <div><img src={cat4} className='w-[100px]' /></div>
-                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
-                </div>
-                <div className='flex border-2 border-solid'>
-                    <div><img src={cat3} className='w-[100px]' /></div>
-                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
-                </div>
-                <div className='flex border-2 border-solid'>
-                    <div><img src={cat2} className='w-[100px]' /></div>
-                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
-                </div>
-                <div className='flex border-2 border-solid'>
-                    <div><img src={cat1} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat4} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
             </div>
             <div className=' justify-between flex mt-10'>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat1} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat4} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat3} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat3} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat2} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat2} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
                 <div className='flex border-2 border-solid'>
-                    <div><img src={cat4} className='w-[100px]' /></div>
+                    <div><img alt="" src={cat1} className='w-[100px]' /></div>
+                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
+                </div>
+            </div>
+            <div className=' justify-between flex mt-10'>
+                <div className='flex border-2 border-solid'>
+                    <div><img alt="" src={cat1} className='w-[100px]' /></div>
+                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
+                </div>
+                <div className='flex border-2 border-solid'>
+                    <div><img alt="" src={cat3} className='w-[100px]' /></div>
+                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
+                </div>
+                <div className='flex border-2 border-solid'>
+                    <div><img alt="" src={cat2} className='w-[100px]' /></div>
+                    <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
+                </div>
+                <div className='flex border-2 border-solid'>
+                    <div><img alt="" src={cat4} className='w-[100px]' /></div>
                     <div className='border-l-2 px-4 pt-7'>Category Name <br />100</div>
                 </div>
             </div>

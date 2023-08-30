@@ -10,12 +10,12 @@ const Vendor = () => {
   return (
     <div className='container-fluid'>
       <div className='flex justify-between mt-10 '>
-      <div className='border-4 '><img src={sponcer1}/></div>
-      <div className='border-4 '><img src={sponcer2}/></div>
-      <div className='border-4 '><img src={sponcer3}/></div>
-      <div className='border-4 '><img src={sponcer4}/></div>
-      <div className='border-4 '><img src={sponcer5}/></div>
-      <div className='border-4 '><img src={sponcer6}/></div>
+      <div className='border-4 '><img alt="" src={sponcer1}/></div>
+      <div className='border-4 '><img alt="" src={sponcer2}/></div>
+      <div className='border-4 '><img alt="" src={sponcer3}/></div>
+      <div className='border-4 '><img alt="" src={sponcer4}/></div>
+      <div className='border-4 '><img alt="" src={sponcer5}/></div>
+      <div className='border-4 '><img alt="" src={sponcer6}/></div>
       </div>
     </div>
   )

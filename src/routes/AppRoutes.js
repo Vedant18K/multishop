@@ -4,8 +4,7 @@ import { Routes, Route } from 'react-router-dom'; // Import the necessary compon
 import Home from '../HomePage/Home';
 import Shoplist from '../Shop/shoplist';
 import UserLogin from '../Account/userLogin';
-import SignUpPage from '../Account/SignUpPage';
-import LoginPage from '../Account/LoginPage';
+
 import ShopDetails from '../Shop/ShopDetails';
 
 

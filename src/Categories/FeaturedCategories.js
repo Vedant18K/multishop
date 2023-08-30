@@ -21,7 +21,7 @@ const FeaturedCategories = () => {
         <div className=' justify-between flex mt-10'>
                 <div className=' '>
                     <div>
-                        <img className="w-[500px]" src={product1} />
+                        <img alt="" className="w-[500px]" src={product1} />
                     </div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
@@ -35,7 +35,7 @@ const FeaturedCategories = () => {
                 </div>
                 <div className=' '>
                     <div>
-                        <img className="w-[500px]" src={product2} />
+                        <img alt="" className="w-[500px]" src={product2} />
                     </div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
@@ -50,7 +50,7 @@ const FeaturedCategories = () => {
                 </div>
                 <div className=' '>
                     <div>
-                        <img className="w-[500px]" src={product3} />
+                        <img alt="" className="w-[500px]" src={product3} />
                     </div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
@@ -65,7 +65,7 @@ const FeaturedCategories = () => {
                 </div>
                 <div className=' '>
                     <div>
-                        <img className="w-[500px]" src={product4} />
+                        <img alt="" className="w-[500px]" src={product4} />
                     </div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
@@ -80,7 +80,7 @@ const FeaturedCategories = () => {
             </div>
             <div className=' justify-between flex mt-10'>
                 <div className=' '>
-                    <div><img className="w-[500px]" src={product5} /></div>
+                    <div><img alt="" className="w-[500px]" src={product5} /></div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
                         $123.00 <br/>
@@ -92,7 +92,7 @@ const FeaturedCategories = () => {
                     </div>
                 </div>
                 <div className=' '>
-                    <div><img className="w-[500px]" src={product6} /></div>
+                    <div><img alt="" className="w-[500px]" src={product6} /></div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
                         $123.00 <br/>
@@ -104,7 +104,7 @@ const FeaturedCategories = () => {
                     </div>
                 </div>
                 <div className=' '>
-                    <div><img className="w-[500px]" src={product7} /></div>
+                    <div><img alt="" className="w-[500px]" src={product7} /></div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
                         $123.00 <br/>
@@ -116,7 +116,7 @@ const FeaturedCategories = () => {
                     </div>
                 </div>
                 <div className=' '>
-                    <div><img className="w-[500px]" src={product8} /></div>
+                    <div><img alt="" className="w-[500px]" src={product8} /></div>
                     <div className='text-center'>
                         Product Name Goes Here<br/>
                         $123.00 <br/>
