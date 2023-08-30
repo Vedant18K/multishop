@@ -242,7 +242,7 @@ const Shoplist = () => {
 
                     </div>
                     <div >
-                        <div className='flex  grid-cols-3 pt-[100px] '>
+                        <div className='flex grid grid-cols-3 pt-[100px] '>
                             {listrecord.map((item, index) => {
                                 return (
                                     <div className='border-4 pb-5 m-2 'key={index}>
