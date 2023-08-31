@@ -7,6 +7,7 @@ import UserLogin from '../Account/userLogin';
 
 import ShopDetails from '../Shop/ShopDetails';
 import ShoppingCart from '../Pages/ShoppingCart';
+import CheckOuts from '../Pages/CheckOuts';
 
 
 const AppRoutes = () => {
@@ -18,6 +19,7 @@ const AppRoutes = () => {
       <Route path="/shoplist" element={<Shoplist/>}/>
       <Route path="/shopdetails" element={<ShopDetails/>}/>
       <Route path="/shoppingcart" element={<ShoppingCart/>}/>
+      <Route path="/checkouts" element={<CheckOuts/>}/>
     </Routes>
   );
 };
