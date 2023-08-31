@@ -16,7 +16,7 @@ const HeaderTwo = () => {
           <Link to={"/home"}><li>Home</li></Link>
           <Link to={"/shoplist"}><li>Shop</li></Link>
           <Link to={"/shopdetails"}><li>Shop Details</li></Link>
-          <li>Pages</li>
+          <Link to={"/shoppingcart"}><li>Pages</li></Link>
           <li>Contact</li>
         </ul>
       </div>

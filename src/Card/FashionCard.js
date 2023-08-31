@@ -57,7 +57,7 @@ const FashionCard = () => {
                                 <img alt=""
                                     src={carousel1}
                                     class="block w-full "
-                                    
+                                     
                                 />
                                 <div class="absolute space-y-6 inset-x-[15%] bottom-20 flex flex-col justify-center py-5 place-items-center text-center text-white md:text-xl">
                                     <div class=" text-3xl lg:text-4xl xl:text-5xl">
