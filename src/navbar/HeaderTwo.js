@@ -48,7 +48,7 @@ const HeaderTwo = () => {
             </div>
           </li>
               
-              <li>Contact</li>
+            <Link to={"/contacts"}> <li>Contact</li></Link> 
             </ul>
           </div>
         </div>

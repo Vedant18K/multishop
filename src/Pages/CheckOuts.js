@@ -57,7 +57,7 @@ const CheckOuts = () => {
             <HeaderTwo />
             <div className='container-fluid'>
                 <div className=' mt-10 border-4 p-3'>
-                    Home/ Shop / Checkout
+                    Home/ Pages / Checkout
                 </div>
                 <div className=' flex justify-evenly '>
                     <div>
