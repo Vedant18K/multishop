@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import Header from '../navbar/Header'
 import SearchBar from '../Search/SearchBar'
 import HeaderTwo from '../navbar/HeaderTwo'
