@@ -11,6 +11,7 @@ import list6 from '../Assets/img/product-6.jpg'
 import list7 from '../Assets/img/product-7.jpg'
 import list8 from '../Assets/img/product-8.jpg'
 import list9 from '../Assets/img/product-4.jpg'
+import FooterCard from '../footer/FooterCard'
 
 const listrecord = [
     {
@@ -264,6 +265,7 @@ const Shoplist = () => {
                     </div>
                 </div>
             </div>
+            <FooterCard/>
         </div>
     )
 }

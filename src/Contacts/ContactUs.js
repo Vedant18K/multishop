@@ -4,6 +4,9 @@ import SearchBar from '../Search/SearchBar'
 import HeaderTwo from '../navbar/HeaderTwo'
 import FooterCard from '../footer/FooterCard'
 import MapComponent from './MapComponent';
+import locationicom from '../Assets/map-pin.svg'
+import mailicon from '../Assets/mail.svg'
+import phoneicon from '../Assets/phone.svg'
 
 
 const ContactUs = () => {
@@ -23,7 +26,7 @@ const ContactUs = () => {
                             <input type='text' className='w-[700px] border-2 py-3 px-1' placeholder='Your Name' />
                             <input type='email' className='w-[700px] border-2 mt-10 py-3 px-1' placeholder='Your Email' />
                             <input type='text' className='w-[700px] border-2 mt-10 py-3 px-1' placeholder='Subject' />
-                            <textarea type='text' className='w-[700px] border-2 mt-10 py-3 px-1' placeholder='Message' />
+                            <textarea type='text' className='w-[700px] h-[200px] border-2 mt-10 py-3 px-1' placeholder='Message' />
                             <div><button className='bg-yellow-500 px-10 py-2 rounded-md mt-10'>Send Message</button></div>
                         </div>
                         <div className='px-[200px]'>
@@ -31,6 +34,9 @@ const ContactUs = () => {
                                 {/* Other components or content */}
                                 <MapComponent /> {/* Use your MapComponent */}
                                 {/* Other components or content */}
+                                <div className='flex gap-3 mt-3'><img alt='icon' src={locationicom}/>123 Street, New York, USA</div>
+                    <div className='flex gap-3 mt-3'><img alt='icon' src={mailicon}/>info@example.com</div>
+                    <div className='flex gap-3 mt-3'><img alt='icon' src={phoneicon}/>+012 345 67890</div>
                             </div>
                         </div>
                     </div>

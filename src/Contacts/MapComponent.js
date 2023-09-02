@@ -11,7 +11,7 @@ export default function MapComponent() {
 
     return (
         <MDBRow className='w-100'>
-      <MDBCol className='my-4'>
+      <MDBCol className='my-2'>
         <iframe
           src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4622625.996241788!2d77.20902124616695!3d20.59368420699252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f843d9d7f2c51%3A0x52f2adfc4e48f1e5!2sIndia!5e0!3m2!1sen!2sus!4v1628992663035!5m2!1sen!2sus'
           className='w-100'
